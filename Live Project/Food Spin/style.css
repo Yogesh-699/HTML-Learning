@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+}
+
+.header .menu{
+    display: flex;
+    column-gap: 60px;
+    font-weight: 500; 
+}
+
+.contentWrapper{
+    max-width:350px;
+    margin-top:100px;
+    margin-left :100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.contentWrapper div:nth-of-type(1){
+    color: #ff922c;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.contentWrapper div:nth-of-type(2)
+ {
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contentWrapper div:nth-of-type(3){
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+} 
+
+.contentWrapper button{ 
+    width: 163px;
+    height: 48px;
+    top: 552px;
+    left: 100px;
+    border-radius: 69px;
+    background: #ff922c;
+    border: none;
+    color: white;
+}
+
+.contentWrapper .watch-video-text{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 112px;
+    height: 20px;
+    top: 742px;
+    left: 100px;
+    margin-top: 100px; 
+
+}
+
+.bg{
+    width: 1177px;
+    height: 1177px;
+    top: -645px;
+    left: 500px;
+    background: #FFEEDE;
+    border-radius:50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.image-circle{
+    width:650px;
+    height:650px;
+    top:150px;
+    left:750px;
+    border: 2px rgb(250, 146, 146) dashed;
+    position: absolute;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.image-circle img
+{
+    border-radius: 50%;
+}
+
+.image-circle .Image1{
+    position: absolute;
+    top: -8%;
+    left: 43%;
+
+}
+
+.image-circle .Image2{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.image-circle .Image3{
+    position: absolute;
+    top: 5%;
+    right: 10%;  
+
+}
+
+.image-circle .Image4{
+    position: absolute;
+    top: 35%;
+    right: -8%;
+    
+}
+
+.image-circle .Image5{
+    position: absolute;
+    top: 33%;
+    left: -8%;
+    
+}
+
+.image-circle .Image6{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    top:190px;
+    left:170px;
+}
+
+.image-circle .Image7{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    top: 500px;
+    left: -50px;
+
+
+}
+
+.image-circle .Image8{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    top: 500px;
+    left: 618px;
+}
+

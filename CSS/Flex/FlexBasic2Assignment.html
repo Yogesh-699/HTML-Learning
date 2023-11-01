@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+    .container{
+        background-color: #ffffff;
+       padding: 5px;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: end;
+
+    }
+    .item {
+       background-color: red;
+       padding: 20px;
+       font-size: 20px;
+       color: #000000;
+       text-align: center;
+     }
+     .item2 {
+       background-color: rgb(0, 157, 255);
+       padding: 20px;
+       font-size: 20px;
+       color: #000000;
+       text-align: center;
+     }
+     .item3 {
+       background-color: yellow;
+       padding: 20px;
+       font-size: 20px;
+       color: #000000;
+       text-align: center;
+     }
+     .item4 {
+       background-color: rgb(226, 14, 241);
+       padding: 20px;
+       font-size: 20px;
+       color: #000000;
+       text-align: center;
+     }
+     .item5 {
+       background-color: rgb(120, 242, 120);
+       padding: 20px;
+       font-size: 20px;
+       color: #000000;
+       text-align: center;
+     }
+     .container2{
+      background-color: #ffffff;
+       padding: 5px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+      }
+      .i3{
+        flex-grow: 5;
+      }
+      .i4{
+        flex-grow: 5;
+      }
+</style>
+<body>
+    <ul class="container">
+        <ul class="item i1">Header</ul>
+        <div class="container2">
+          <p class="item3 i3">Aside1</p>
+        <p class="item2 i2">Task: Let’s try something even better .<br>
+            Create a mobile-first 3-columns layout with full-width header and footer.<br>
+             And independent from source order.</p>
+        <p class="item4 i4">Aside2</p>
+      </div>
+        <ul class="item5 i5">Footer</ul>
+    </ul>
+</body>
+</html>

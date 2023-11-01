@@ -1,0 +1,33 @@
+h1 {
+  background-color: rgb(0, 255, 17);
+  font-size: 40px;
+  text-align: center;
+}
+
+.textClass {
+  width: 500px;
+  line-height: 32px;
+}
+
+.green {
+  color: green;
+}
+.Red {
+  color: red;
+}
+
+.wordspacing-class {
+  word-spacing: 300px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+div {
+  font-weight: bold;
+  background-image: url(https://cdn0.iconfinder.com/data/icons/birds-29/800/Crow-512.png);
+}

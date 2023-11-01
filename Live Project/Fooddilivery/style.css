@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    column-gap: 50px;
+}
+
+.heroSection{
+    background-image: url('../Fooddilivery/Image/Rectangle\ 48.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 73px 250px 148px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.upperSection p:nth-of-type(1){
+    width: 119px;
+    height: 36px;
+    left: 443px;
+   
+}
+
+.upperSection p:nth-of-type(2){
+    width: 1005px;
+    height: 326px;
+    top: 72px;
+    left: 217.5px;
+    gap: 7px;
+
+    
+}
+
+.upperSection p:nth-of-type(3){
+    width: 728px;
+    height: 96px;
+    top: 230px;
+    left: 138.5px;
+    padding: 10px 88px 48px 89px;
+    gap: 10px;
+    
+}
+
+.mobileImageWrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -130px;
+    
+}
