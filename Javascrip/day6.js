@@ -1,5 +1,5 @@
 let x //declaration
-x =10 //assignment
+x =11 //assignment
 
 console.log(y)
 
