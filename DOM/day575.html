@@ -1,0 +1,44 @@
+<!-- JavaScript QuerySelector -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>querySelector() Demo</title>
+</head>
+<body>
+    <header>
+      <div id="logo">
+       <img src="img/logo.jpg" alt="logo" id="logo">
+      </div>
+      <nav class="primary-nav">
+        <ul>
+          <li class="menu-item current"><a href=""#home">Home</a></li>
+            <li class="menu-item"><a href="#services">Services</a>
+            <li class="menu-item"><a href="#about">About</a></li>
+              <li class="menu-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>welcome to the JS Dev Agency</h1>
+      <div class="container">
+        <section class="section-a">
+          <h2>UI/UX</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatem ipsa vitae tempore aspernatur! Repellat doloribus harum cupiditate voluptate iusto. Fugiat nostrum, expedita ipsum inventore dignissimos ex unde nesciunt deserunt!</p>
+          <button>Read More</button>
+        </section>
+        <section class="section-c">
+          <h2>Mobile App Dev</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid impedit, quisquam autem sint ullam similique tenetur eum! Id modi assumenda sunt pariatur voluptatum obcaecati quam quas dignissimos quae soluta.</p>
+          <button>Read More</button>
+        </section>
+      </div>
+    </main>
+    <script src="js/main.js">
+      let listItem = document.querySelectorAll( 'li:nth-child(2)')
+      let listItems = document.querySelectorAll( 'ul.nav > li' );
+    </script>
+    
+</body>
+</html>
