@@ -57,13 +57,14 @@ body{
 
 .progress{
     height: 4px;
-    width: 100%;
+    width: 0%;
     background-color: var(--line-border-fill);
     position: absolute;
     top:50%;
     left: 0;
     z-index: -1;
     transform: translateY(-50%);
+    transition: 0.4s ease;
 }
 
 .progress.active{
@@ -75,10 +76,22 @@ body{
     color: white;
     border: 0;
     border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
     margin: 5px;
-    padding: 5px;
+    padding: 8px 30px;
+    font-size: 14 px;
 }
 
 .btn:active{
     transform: scale(0.98);
+}
+
+.bt:focus {
+    outline: 0;
+}
+
+.btn:disabled{
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
 }
